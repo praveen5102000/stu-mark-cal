@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/stu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7303085;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(13, 17, 19);
+}
+
+input[type="number"],
+button {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(95 51 255 / 62%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    position: relative;
+    left: 43%;
+    font-size: 15px;
+}

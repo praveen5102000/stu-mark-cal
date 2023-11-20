@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT MARK CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>STUDENT MARK CALCULATOR</h1>
+        <form id="stu-form">
+            <label for="tamil">Tamil</label>
+            <input type="number" id="tamil"><br>
+            <label for="english">English</label>
+            <input type="number" id="english"><br>
+            <label for="maths">Maths</label>
+            <input type="number" id="maths"><br>
+            <label for="science">Science</label>
+            <input type="number" id="science"><br>
+            <label for="social">Social Science</label>
+            <input type="number" id="social"><br>
+            <button type="button" onclick="student_mark()">RESULT</button>
+        </form>
+        <div id="result">
+            <p id="res"></p>
+            <p id="tot"></p>
+            <p id="avg"></p>
+            <p id="grade"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
